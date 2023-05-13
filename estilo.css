@@ -12,11 +12,6 @@ body{
     background-color: black;
 }
 
-/* .conteiner{
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 789px;
-} */
 
 .Menu{
     width: 100%;
@@ -256,7 +251,7 @@ body{
 }
 
 .imc_calculo{
-    width: 631px;
+    width: 651px;
     height: 401px;
     background-color: aqua;
     margin-right: 30px;
@@ -265,8 +260,24 @@ body{
     border-radius: 30px;
 }
 
+.imc_calculo .calculo{
+    width: 300px;
+    height: 400px;
+}
+
+.imc_calculo .calculo h2{
+    text-align: center;
+    color: #000000;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    margin-top: 20px;
+}
+
 .imc_dicas{
-    width: 180px;
+    width: 250px;
     height: 401px;
     background: #FFFFFF;
     box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.25);
