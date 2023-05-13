@@ -306,13 +306,24 @@ body{
 }
 
 .imc_calculo .calculo input{
-    width: 260px;
+    width: 230px;
     height: 48px;
     background: #D9D9D9;
     border-radius: 20px;
     border: none;
     margin-top: 20px;
     margin-left: 20px;
+    padding-left: 20px;
+}
+
+.imc_calculo .calculo input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+}
+.imc_calculo .calculo input[type=number] { 
+   -moz-appearance: textfield;
+   appearance: textfield;
+
 }
 
 .imc_calculo .calculo input::placeholder{ 
@@ -340,7 +351,7 @@ body{
 
 .imc_calculo .calculo button{
     color: #fff;
-    width: 260px;
+    width: 250px;
     height: 49px;
     background: linear-gradient(0deg, rgba(60, 0, 0, 0.2), rgba(60, 0, 0, 0.2)), #F40000;
     border-radius: 30px;
@@ -349,15 +360,22 @@ body{
     margin-top: 30px;
 }
 
+.imc_calculo .calculo button:hover{
+    transform: scale(0.98);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+
 .imc_calculo .calculo textarea{
     resize: none;
-    width: 257px;
+    width: 230px;
     height: 60px;
     background: #D9D9D9;
     border-radius: 20px;
     border: none;
     margin-left: 20px;
     margin-top: 30px;
+    padding-left: 20px;
+    padding-top: 10px;
 }
 
 .imc_calculo .img_imc img{
@@ -385,13 +403,19 @@ body{
     margin-top: 10px;
 }
 
+.imc_calculo .img_imc button:hover{
+    transform: scale(0.98);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+
+
 .imc_calculo .img_imc input{
-    width: 168px;
-    height: 40px;
+    width: 148px;
     background: #D9D9D9;
     border-radius: 20px;
     border: none;
     margin-left: 100px;
+    padding: 10px;
 }
 
 .imc_calculo .img_imc input::placeholder{ 
