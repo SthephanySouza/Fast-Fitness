@@ -261,20 +261,20 @@ body{
     box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
 }
 
-#imc{
+#imc_link{
     width: 100%;
     height: 630px;
     background-color: rgb(0, 0, 0);
 }
 
-#imc h1{
+#imc_link h1{
     margin-top: 20px; 
     color: #fff;
     text-align: center;
     font-size: 25px;
 }
 
-#imc p{
+#imc_link p{
     font-family: 'Tiro Bangla';
     font-style: normal;
     font-weight: 400;
@@ -421,4 +421,111 @@ body{
     border-radius: 20px;
     margin-top: 20px;
     margin-left: 15px;
+}
+
+#contato_link{
+    width: 100%;
+    height: 330px;
+    background-color:#E70707BA;
+}
+
+footer{
+    display: flex;
+    justify-content: left;
+}
+
+footer .contato_img_logo{
+    width: 220px;
+    height: 230px;
+    margin-left: 70px;
+    margin-top: 80px;
+}
+
+footer .contato_img_logo img{
+    width: 200px;
+    height: 200px;
+}
+
+footer .contato_conteudo{
+    width: 500px;
+    height: 290px;
+    margin-left: 120px;
+    margin-top: 30px;
+}
+
+footer .contato_conteudo h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 33px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+footer.contato_conteudo img{
+    margin-left: 100px;
+}
+
+footer .contato_conteudo a{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    margin-left: 10px;
+}
+
+footer .contato_conteudo a:hover{
+    color:#bbb;
+}
+
+footer .contato_conteudo .img_email{
+    float: left;
+    margin-left: 130px;
+}
+
+footer .contato_conteudo .img_telefone{
+    float: left;
+    margin-left: 150px;
+    margin-top: 10px;
+}
+
+footer .contato_conteudo h3{
+    color: #fff;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    margin-top: 10px;
+}
+
+footer .contato_conteudo .contato_redesocias{
+    justify-content: center;
+    display: flex;
+}   
+
+footer .contato_conteudo .contato_redesocias img:nth-child( 1 ){
+    margin-left: -10px;
+}
+
+footer .contato_conteudo .contato_redesocias img:nth-child( 2 ){
+    margin-left: 30px;
+}
+
+footer .contato_conteudo .contato_redesocias img:nth-child( 3 ){
+    margin-left: 30px;
+}
+
+footer .contato_conteudo h4{
+    text-align: center;
+    color: #fff;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
 }
