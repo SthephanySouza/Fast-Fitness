@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Fast Fitness</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="estilo.css" />
+    <link rel="shortcut icon" href="img/logo_deitada.png" type="image/x-icon" />
+</head>
+<body>
+    <div class="conteiner">
+        <nav class="Menu">
+            <li>
+                <img src="img/logo_deitada.png"/>
+            </li>
+			
+           
+            <li>
+                <a href="#sobre_link">Sobre</a>
+            </li>
+            <li>
+                <a href="#planos_link">Planos</a>
+            </li>
+            <li>
+                <a href="#imc_link">Imc</a>
+            </li>
+            <li>
+                <a href="#contato_link">Contato</a>
+            </li>
+			
+			<div class="mobil-menu">
+			<div class="line1"></div>
+			<div class="line2"></div>
+			<div class="line3"></div>
+			</div>
+            <li>
+                <img class="img_nav" src="img/icon_usuario.png"/>
+            </li>
+        </nav>
+		<a id="LinkTopo" href="#">&#9650; </a>
+
+        <div class="slideshow">
+            <div class="imgSlide anime">
+                <img src="img/imgShow1.png" />
+            </div>
+            
+            <div class="imgSlide anime">
+                <img src=" img/imgSow3.jpg " />
+            </div>
+
+            <div class="imgSlide anime">
+                <img src="img/imgShow2.jpg" />
+            </div>
+        </div>
+            <br>
+        <div style="text-align:center">
+            <span class="ponto"></span> 
+            <span class="ponto"></span>
+            <span class="ponto"></span>
+        </div>
+    </div>
+    <section id="sobre_link">
+        <div class="sobre">
+            <h1>Sobre </h1>
+            <div class="sobre_conteudo">
+                
+                <div class="img_logo">
+                    <img src="img/Logo.png">
+                </div>
+
+                <div class="sobre_text">
+                    <p><br>
+                        Nossa academia é uma instalação fitness de última geração localizada no coração da Lepoldina. 
+                        <br><br>Temos uma ampla variedade de equipamentos e comodidades para ajudá-lo a atingir suas metas de
+                        condicionamento físico, incluindo aparelhos de cardio, equipamentos de levantamento de peso e 
+                        aulas de condicionamento físico em grupo.
+                    </p>
+                </div>
+            </div>
+        <br>
+            <div class="img_sobre">
+                <img src="img/img_sobre3.jpg">
+                <img src="img/img_sobre4.jpg" class="img">
+            </div>
+        </div>
+    </section>
+    <section id="planos_link">
+        <h1>Planos</h1>
+        <br>
+        <div class="planos">
+            <div class="plano_individual">
+                <h1>Individual</h1>
+                <img class="img_indi" src="img/individual.png">
+                <p>Treine sozinho e mostre sua evolução</p>
+                <button><a href="">Matricular-se</a></button>
+            </div>
+            <div class="plano_duo">
+                <h1>Duo</h1>
+                <img class="img_duo" src="img/duo.png">
+                <p>Treine com um amigo ou sua namorada</p>
+                <button><a href="">Matricular-se</a></button>
+            </div>
+            <div class="plano_familia">
+                <h1>Família</h1>
+                <img class="img_fami" src="img/familia.png">
+                <p>Treine com sua família e mostre como evoluir em conjunto</p>
+                <button><a href="">Matricular-se</a></button>
+            </div>
+        <br>
+    </section>
+    <section id="imc_link">
+        <br>
+        <h1>IMC</h1>
+        <br>
+        <p>Descubra seu IMC, e logo após aparecerá um treino recomendado</p>
+        <div class="imc_conteudo">
+            <div class="imc_calculo">
+                <div class="calculo">
+                    <h2>Cálculo de IMC</h2>
+                    <br>
+                    <input id="peso" type="number" placeholder="Peso">
+                    <input id="altura" type="number" placeholder="Altura">
+                    <button id="calcular">Calcular</button>
+                    <textarea disabled id="resultado" rows="5" cols="33"></textarea>
+                </div>
+                <div class="img_imc">
+                    <img src="img/tabelaImc.png">
+                    <br>
+                    <h3>Digite seu IMC</h3>
+                    <br>
+                    <input type="text" placeholder="IMC">
+                    <button>Dica</button>
+                </div>
+            </div>
+            <div class="imc_dicas">
+                <div class="imc_dicas_conteudo">
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contato_link">
+        <footer>
+            <div class="contato_img_logo">
+                <img src="img/Logo.png"/>
+            </div>
+            <div class="contato_conteudo">
+                <h1>Contato</h1>
+                <br>
+                <img class="img_email" src="img/email.png"/>
+                <a href="mailto:fastfitness@gmail.com?subject=subject text">fastfitness@gmail.com</a>
+                <br><br>   
+                <img class="img_telefone" src="img/telefone.png"/>
+                <h3>+55 (11) 98765-4321</h3>
+                <br><br>
+                <div class="contato_redesocias">
+                    <img src="img/linkedin.png"/>
+                    <img src="img/instagram.png"/>
+                    <img src="img/face.png"/>
+                </div>
+                <br><br>
+                <h4>Copyright @ 2023 FastFitness. Todos os direitos reservados</h4>
+            </div>
+        </footer>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
