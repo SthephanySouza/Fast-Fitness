@@ -596,16 +596,6 @@ footer .contato_conteudo h4{
         margin-left: 40px;
     }
 
-    footer .contato_img_logo img{
-        display: none;
-    }
-    #contato_link{
-        margin-top: 140px;
-    }
-    footer .contato_conteudo h1{
-        text-align: left;
-    }
-
     .sobre .img_sobre img{
         display: none;
     }
@@ -615,6 +605,7 @@ footer .contato_conteudo h4{
         text-align: center;
         margin-left: -180px;
         width: 950px;
+        margin-bottom: -300px;
     }
 
     .img_logo{
@@ -627,6 +618,8 @@ footer .contato_conteudo h4{
 
     .planos .plano_individual{
         height: 350px;
+        margin-bottom: 50px;
+        margin-left: 50px;
     }
 
     .planos .plano_individual button{
@@ -635,6 +628,8 @@ footer .contato_conteudo h4{
 
     .planos .plano_duo{
         height: 350px;
+        margin-bottom: 50px;
+        margin-left: 50px;
     }
 
     .planos .plano_duo button{
@@ -643,6 +638,7 @@ footer .contato_conteudo h4{
 
     .planos .plano_familia{
         height: 350px;
+        margin-left: 50px;
     }
 
     .planos .plano_familia button{
@@ -651,5 +647,42 @@ footer .contato_conteudo h4{
 
     #imc_link h1{
         margin-top: 600px;
+    }
+
+    footer .contato_img_logo img{
+        display: none;
+    }
+
+    #contato_link{
+        margin-top: 140px;
+    }
+
+    footer .contato_conteudo h1{
+        text-align: left;
+        margin-left: -90px;
+    }
+
+    footer .contato_conteudo .img_email{
+        margin-left: -170px;
+    }
+
+    footer .contato_conteudo a{
+        margin-left: -120px;
+    }
+
+    footer .contato_conteudo .img_telefone{
+        margin-left: -160px;
+    }
+
+    footer .contato_conteudo h3{
+        margin-left: -120px;
+    }
+
+    footer .contato_conteudo .contato_redesocias{
+        margin-left: -260px;
+    }
+
+    footer .contato_conteudo h4{
+        margin-left: -260px;
     }
 }
