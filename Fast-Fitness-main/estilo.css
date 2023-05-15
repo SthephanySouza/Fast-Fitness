@@ -13,6 +13,13 @@ body{
 	background-size: cover;
 }
 
+.conteiner{
+    background: url(img/imgShow1.png);
+    background-repeat: no-repeat;
+    height: 790px;
+    position: fixed;
+}
+
 .Menu{
     width: 100%;
     height: 100px;
@@ -43,7 +50,7 @@ body{
     width: 96px;
     height: 63px;
     margin-top: 20px;
-    margin-left: 20px;
+    margin-left: 25px;
 }
 
 .Menu .img_nav{
@@ -62,8 +69,6 @@ body{
 	right: 10px;
 	bottom: 10px;
 	box-shadow: 3px 3px 10px #333;
-	
-	
 }
 
 .imgSlide{
@@ -75,35 +80,6 @@ body{
     width: 100%;
     height: 100%;
 	
-}
-
-.slideshow{
-    position: relative;
-    margin: auto;
-}
-
-.ponto{
-    height: 15px;
-    width: 15px;
-    margin: 0 2px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-}
-
-.ativar{
-    background-color: #717171;
-}
-
-.anime{
-    animation-name: anime;
-    animation-duration: 5s;
-}
-
-@keyframes anime{
-    from {opacity: .4} 
-    to {opacity: 1}
 }
 
 .sobre{
@@ -179,26 +155,25 @@ body{
 .planos{
     display: flex;
     justify-content: space-between;
-	flex-wrap: wrap;
 }
 
 .planos .img_indi{
     width: 70px;
-    height: 80px;
+    height: 60px;
     margin-left: 130px;
     margin-top: -30px;
 }
 
 .planos .img_duo{
     width: 90px;
-    height: 80px;
+    height: 75px;
     margin-left: 130px;
     margin-top: -30px;
 }
 
 .planos .img_fami{
     width: 120px;
-    height: 80px;
+    height: 75px;
     margin-left: 130px;
     margin-top: -30px;
 }
@@ -679,4 +654,95 @@ footer .contato_conteudo h4{
     .contato_conteudo h4{
         align-items: center;
     } */
+
+    .Menu li{
+		width: 100%;
+		float: none;		
+    }
+
+	.Menu li:hover{
+		height: auto;
+		max-height: 200px;
+	}
+    
+	#btnMenu{
+		display: none;
+	}
+
+	label[for="btnMenu"]{
+		display: block;
+	}
+	#btnMenu:checked ~ .Menu{
+		margin-left: 0;
+	}
+	.Menu{
+		margin-top: 5px;
+		margin-left: -100%;
+		transition: all 0.4s;
+	}
+
+	.Menu a{
+	    color: #000;
+    }
+}
+
+@keyframes transition{
+    0%{
+        border-radius: 0px;
+        color: white;
+        background: transparent;
+        padding: 0px;
+    }
+    5%{
+        padding: 5px;
+    }
+    
+    20%{
+        padding: 5px;
+    }
+    
+    40%{
+        padding: 5px;
+    }
+
+    60%{
+        padding: 5px;
+    }
+
+    80%{
+        padding: 5px;
+    }
+
+    90%{
+        padding: 5px;
+    }
+    
+    100%{
+        border-radius: 600px;
+        color: #fff;
+        padding: 5px;
+    }
+}
+
+label[for="btnMenu"]{
+	width: 50px;
+	height: 50px;
+	padding: 5px;
+	color: #fff;
+	text-align: center;
+	font-size: 30px;
+	cursor: pointer;
+}
+#btnMenu{
+    display: none;
+}
+
+label[for="btnMenu"]{
+	display: none;
+}
+
+label img{
+	width:500px;
+	height:400px;
+	margin-left:30%;
 }
